@@ -16,8 +16,11 @@ while user_num and result != 9:
     tmp = user_num % 10      # остаток по модулю 10
     if tmp > result:
         result = tmp   
-        user_num // 10     
-    print(result)
+    user_num //= 10     
+print(result)
+
+    
+
 
     
         
